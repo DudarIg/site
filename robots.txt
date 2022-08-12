@@ -1,0 +1,11 @@
+User-agent:*
+Host: www.exp-zentr.ru
+Sitemap: http://www.exp-zentr.ru/sitemap.xml
+Disallow: /images/
+Disallow: /foto/
+Disallow: /webstat/
+Disallow: /err404.htm
+Disallow: /footer.htm
+Disallow: /headers.htm
+Disallow: /j25/
+Disallow: /skk/

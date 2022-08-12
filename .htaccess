@@ -1,0 +1,15 @@
+AddHandler application/x-httpd-php .php .htm .html
+Options +FollowSymLinks  
+RewriteEngine On  
+RewriteCond %{HTTP_HOST} ^exp-zentr\.ru$ [NC]  
+RewriteRule ^(.*)$ http://www.exp-zentr.ru/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.htm\ HTTP/
+RewriteRule ^index\.htm$ http://www.exp-zentr.ru/ [R=301,L] 
+
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} ^(.+)/$
+RewriteRule ^(.+)/$ http://www.exp-zentr.ru/$1 [R=301,L]
+
+
+ErrorDocument 404 /err404.htm

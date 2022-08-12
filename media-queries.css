@@ -1,0 +1,64 @@
+/* Copyright 2012 megagroup.ru */
+@media only screen and (min-width: 920px) {
+html.mobile #main { width: 100%; margin-top: 0; -moz-border-radius:0; -webkit-border-radius:0; -khtml-border-radius:0; border-radius:0;}
+html.mobile nav li a { padding-left:15px; padding-right:15px; }
+html.mobile footer.footer { -moz-border-radius:0; -webkit-border-radius:0; -khtml-border-radius:0; border-radius:0; margin-bottom:0; }
+html.mobile footer.footer .right { width:48%; }
+html.mobile footer.footer .left { width:48%; }
+html.mobile footer.footer textarea { min-height:185px; }
+}
+@media only screen and (max-width: 920px) {
+#main { width: 100%; margin-top: 0; -moz-border-radius:0; -webkit-border-radius:0; -khtml-border-radius:0; border-radius:0;}
+}
+@media only screen and (min-width: 501px) and (max-width: 920px) {
+#main { width: 100%; margin-top: 0; }
+header { height:auto; }
+.phone { height:auto !important; }
+nav li a { padding-left:10px; padding-right:10px; font-size:14px; }
+footer.footer { -moz-border-radius:0; -webkit-border-radius:0; -khtml-border-radius:0; border-radius:0; margin-bottom:0; }
+footer.footer .right { width:48%; }
+footer.footer .left { width:48%; }
+footer.footer .right .contacts { width:auto; }
+footer.footer textarea { min-height:185px; }
+}
+@media only screen and (min-width: 501px) and (max-width: 650px) {
+header h1.logo { line-height:90px !important; height:auto !important; font-size:20px !important; }
+header .phone { height:auto; line-height:90px !important; font-size:18px !important; }
+footer.footer .right .contacts { width:auto; }
+.copy, .mega { float: none; margin: 0 auto; }
+.copy {text-align: center; margin-top: 30px; margin-bottom: 20px;}
+}
+@media only screen and (min-width:0px) and (max-width: 500px) {
+header { height:auto; }
+header h1.logo { height:auto; line-height:75px; float:none; font-size:20px; }
+header h1.logo span.slogan { font-size:11px; }
+header .phone { height:auto; float:none; line-height:normal; padding-right:0; padding-left:30px; padding-bottom:10px; }
+nav { height: auto; }
+nav.fixed > div { position: static; }
+nav ul { background:#333745 url("footer-gr.png")/*tpa=http://gotoviy-sayt-vizitka.ru/g/templates/card/2/css/footer-gr.png*/ top left repeat-x; width: auto; padding:10px 30px; }
+nav li { display:block; margin-bottom:2px; height:auto; background:none !important; border: none !important; margin-left:0; padding-left:0; }
+nav li a { display:block; padding:8px 5px 8px 20px; height:auto; color:#333745; font-size:16px; -moz-border-radius:8px; -webkit-border-radius:8px; -khtml-border-radius:8px; border-radius:8px; 
+background:#78c4d3; 
+background:-moz-linear-gradient(top, #addce515%, #78c4d390%); 
+background: -webkit-gradient(linear, left top, left bottom, color-stop(15%,#addce5), color-stop(90%,#78c4d3)); 
+background: -o-linear-gradient(#addce5,#78c4d3); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#addce5', endColorstr='#78c4d3',GradientType=0 ); 
+text-align:left; }
+nav li a:hover { color:#333745; }
+nav li.mend { display:none; }
+article.block .title h2 { font-size:24px; padding:20px 0 0 30px; float:left; }
+footer.footer { -moz-border-radius:0; -webkit-border-radius:0; -khtml-border-radius:0; border-radius:0; margin-bottom:0; }
+footer.footer .right { width:100%; padding-bottom:20px; }
+footer.footer .right .contacts { width:auto; }
+footer.footer .left { width:100%; }
+table, .table0, .table1, .table2 { display:block; overflow-x:auto; word-break:normal; max-width:100%; min-width:300px; }
+article.block .body { font-size:100%; }
+.copy, .mega { float: none; margin: 0 auto; }
+.copy {text-align: center; margin-top: 30px; margin-bottom: 20px;}
+}
+@media only screen and (min-width:0px) and (max-width: 320px) {
+header { height:auto; } 
+header h1.logo { line-height:3em; }
+.copy, .mega { float: none; margin: 0 auto; }
+.copy {text-align: center; margin-top: 30px; margin-bottom: 20px;}
+}

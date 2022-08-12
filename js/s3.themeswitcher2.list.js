@@ -1,0 +1,32 @@
+new S3SolutionsPanel({
+	themes: [
+		['#4e5469', '#77c4d3', '#e2f2f6', '#ffffff'],
+		['#4786ce', '#e5e3e4', '#78b9e3', '#ffffff'],
+		['#4c443c', '#7b5735', '#a4825a', '#ffffff'],
+		['#113455', '#136baa', '#9ad7e4', '#ffffff'],
+		['#4e730d', '#5a2304', '#f6e2ae', '#ffffff'],
+		['#424242', '#1077a2', '#f45c85', '#ffffff'],
+		['#835f64', '#363930', '#fee79b', '#ffffff'],
+		['#dedce1', '#2d6abb', '#ebce81', '#ffffff'],
+		['#8f5b5a', '#edd3ae', '#e8f2d0', '#ffffff'],
+		['#295734', '#417f3c', '#f1f197', '#ffffff'],
+		['#533e63', '#917284', '#d6cb7b', '#ffffff'],
+		['#303238', '#5a2a2a', '#f9e774', '#ffffff'],
+		['#14619d', '#418ccd', '#f7bd01', '#ffffff'],
+		['#3ba2b6', '#012c33', '#97e366', '#ffffff'],
+		['#6e3553', '#8f1256', '#fadceb', '#ffffff'],
+		['#73a846', '#0e340d', '#dfdfdf', '#ffffff'],
+		['#3c3030', '#89441a', '#f4dc96', '#ffffff'],
+		['#4d5a69', '#1c252e', '#dae0e7', '#ffffff'],
+		['#303f51', '#e6edf1', '#ece0a9', '#ffffff'],
+		['#1e5177', '#ddebf8', '#51b3ff', '#ffffff'],
+		['#434c47', '#d9dbda', '#ffb401', '#ffffff'],
+		['#181e2e', '#6e7993', '#d0e4f2', '#ffffff'],
+		['#358143', '#59b16d', '#b4da90', '#ffffff'],
+		['#333333', '#acacac', '#f0f0f0', '#ffffff'],
+		['#e1e1e1', '#f6f6f6', '#0188cc', '#ffffff'],
+		['#7223c3', '#7f37c9', '#a3c832', '#ffffff'],
+		['#633a26', '#a0968c', '#d1b6a1', '#ffffff'],
+		['#2b2f67', '#9781c1', '#49c53c', '#ffffff']
+	]
+});
